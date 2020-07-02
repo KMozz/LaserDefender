@@ -529,17 +529,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1779789322244069255, guid: e92ce5fabbafe4f56abfb951f9d9b676,
         type: 3}
-      propertyPath: wayPoints.Array.data[0]
+      propertyPath: waypoints.Array.data[0]
       value: 
       objectReference: {fileID: 430359434}
     - target: {fileID: 1779789322244069255, guid: e92ce5fabbafe4f56abfb951f9d9b676,
         type: 3}
-      propertyPath: wayPoints.Array.data[1]
+      propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 5660648953077498377}
     - target: {fileID: 1779789322244069255, guid: e92ce5fabbafe4f56abfb951f9d9b676,
         type: 3}
-      propertyPath: wayPoints.Array.data[2]
+      propertyPath: waypoints.Array.data[2]
       value: 
       objectReference: {fileID: 5660648953077498376}
     - target: {fileID: 4490112166876267632, guid: e92ce5fabbafe4f56abfb951f9d9b676,
