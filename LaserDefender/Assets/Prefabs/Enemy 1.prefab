@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 4490112166876267632}
   - component: {fileID: 4490112166876267639}
   - component: {fileID: 1779789322244069255}
-  - component: {fileID: -9214042925633007304}
-  - component: {fileID: -2698474940713346934}
-  - component: {fileID: 1288308720654046281}
-  - component: {fileID: 136326681509396665}
+  - component: {fileID: -7111057410712929742}
+  - component: {fileID: 1492046990510543713}
+  - component: {fileID: 8956447501406754488}
+  - component: {fileID: 5520634361610625835}
   m_Layer: 9
   m_Name: Enemy 1
   m_TagString: Untagged
@@ -75,12 +75,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0feb65e7836a34e43ba03326a60550c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ce0655b921baa4e5f95e14c8bbaa6b9e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.93, y: 0.84}
+  m_Size: {x: 8.96, y: 6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c75b9595097ad439b92ce8134ff66924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-9214042925633007304
+--- !u!114 &-7111057410712929742
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,21 +110,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3b8508f9d6084c208bdefdb876fbf32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 500
+  health: 100
   scoreValue: 150
   minTimeBetweenShots: 0.2
-  maxTimeBetweenShots: 3
-  projectile: {fileID: 2637384228557461994, guid: 5382d90df88bb4b6a8e407949c0ba3f3,
+  maxTimeBetweenShots: 6
+  projectile: {fileID: 2637384228557461994, guid: e3a0e0c143b544864baa8c331e5f0e38,
     type: 3}
   projectileSpeed: 10
   deathVFX: {fileID: 7324492632039289089, guid: 163e0a6dbcea94039a8cca11816744bc,
     type: 3}
   durationOfExplosion: 1
-  deathSound: {fileID: 8300000, guid: f1b2375e3c11848fdb562509f06be397, type: 3}
+  deathSound: {fileID: 8300000, guid: 6daf1ef8fd1e841c68167f0cbdc18861, type: 3}
   deathSoundVolume: 0.75
-  shootSound: {fileID: 8300000, guid: c48950833e10b48ae9c396bed76c4362, type: 3}
+  shootSound: {fileID: 8300000, guid: 55761055ea472462cb99580a0fa5d93f, type: 3}
   shootSoundVolume: 0.25
---- !u!58 &-2698474940713346934
+--- !u!58 &1492046990510543713
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,10 +137,10 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0032720566, y: 0}
+  m_Offset: {x: 0.003272295, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32102227
---- !u!50 &1288308720654046281
+  m_Radius: 0.35374475
+--- !u!50 &8956447501406754488
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -161,7 +161,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &136326681509396665
+--- !u!114 &5520634361610625835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,4 +173,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d84090cb245e40eebf3fef8fcd07e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 200
+  damage: 10
